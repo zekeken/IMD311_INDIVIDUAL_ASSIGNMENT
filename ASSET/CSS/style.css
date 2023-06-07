@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #302727, #949494, #949494, #302727);
+}
+
+h1 {
+  padding: 60px;
+  text-align: center;
+  background: #333131;
+  color: black;
+  font-size: 80px;
+  font-family: "Circular Std Black", "Verdana", "Helvetica", sans-serif;
+  margin: 0;
+}
+
+.topnav {
+  background-color: #636161;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 50px;
+  text-decoration: none;
+  font-family: "Circular Std Black", "Verdana", "Helvetica", sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #bababa;
+}
+
+.topnav a.active {
+  color: #d10d0d;
+  background-color: #bababa;
+}
+
+#myVideo {
+  width: 100%;
+  height: auto;
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#clock {
+  font-size: 50px;
+  font-family: "Circular Std Black", "Verdana", "Helvetica", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #636161;
+  margin: 5px, 0;
+}
+
+h2 {
+  font-family: "Circular Std Medium", "Verdana", "Helvetica", sans-serif;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: "Circular Std Medium", "Verdana", "Helvetica", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #870101;
+  padding: 25px;
+  background: #5c5656;
+  margin: 0;
+  padding-top: 30px;
+}
+
+p2 {
+  font-family: "Circular Std Book", "Verdana", "Helvetica", sans-serif;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1c1b1b;
+  color: white;
+}
+
+    
+.my-div {
+  padding: 50px;
+  background-color: #636161;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+}
+
+.my-element {
+  padding-top: 60px;
+}
+
+img {
+  margin-left: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: "Circular Std Black", "Verdana", "Helvetica", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  border-color: #171616;
+  background-color: #544d4d;
+}
+
+table, tr {
+  border: 0px ;
+  border-radius: 10px;
+  font-family: "Circular Std Black", "Verdana", "Helvetica", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  border-color: #171616;
+  background-color: #474040;
+  background: linear-gradient(to bottom, #1c1c1c, #3b3939, #1c1c1c);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.grid-item img{
+  width: 100%;
+  height: auto;
+}
+
+.video-container {
+  max-width: 500px;
+    margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  outline: none;
+}
+
+.custom-size {
+  width: 110px;
+  height: 140px;
+}

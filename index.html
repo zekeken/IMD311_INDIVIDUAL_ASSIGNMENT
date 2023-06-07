@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KHAIRUL HAZIQ</title>
+  <link rel="stylesheet" type="text/css" href="ASSET/CSS/style.css">
+
+</head>
+
+<body>
+  <a name="Top_Page"> </a>
+   <h1><font color="#a80202">☠</font>      ║      KHAIRUL HAZIQ™</h1>
+
+<!--- NAVIGATION BAR START --->
+<nav class="topnav">
+  <a class="active" href="index.html">HOME</a>
+  <a href="about_me.html">ABOUT ME</a>
+  <a href="skills.html">SKILLS</a>
+  <a href="experience.html">EXPERIENCE</a>
+  <a href="education.html">EDUCATION</a>
+  <a href="my_favourite.html">MY FAVOURITE</a>
+</nav>
+<!--- NAVIGATION BAR END --->
+<!--- OPENING VID START --->
+<video id="myVideo" autoplay muted loop>
+  <source src="ASSET/VIDEO/opening.mp4" type="video/mp4">
+</video>
+<!--- NAVIGATION BAR END --->
+
+<br><br><br>
+
+<!---JAVA APPLET---> 
+
+<!---to call the css---> 
+
+   <div id="clock"> 8:10:45 </div>
+
+<!---to link to the current time---> 
+ 
+   <script src="clock2.js"></script>
+
+<script> 
+setInterval(showTime, 1000);
+function showTime() {
+  let time = new Date();
+  let hour = time.getHours();
+  let min = time.getMinutes();
+  let sec = time.getSeconds();
+  am_pm = "AM";
+
+  if (hour > 12) {
+    hour -= 12;
+    am_pm = "PM";
+  }
+  if (hour == 0) {
+    hr = 12;
+    am_pm = "AM";
+  }
+
+  hour = hour < 10 ? "0" + hour : hour;
+  min = min < 10 ? "0" + min : min;
+  sec = sec < 10 ? "0" + sec : sec;
+
+  let currentTime = hour + ":"
+      + min + ":" + sec + am_pm;
+
+  document.getElementById("clock")
+      .innerHTML = currentTime;
+}
+showTime();
+
+</script>
+<br><br>
+<hr>
+<marquee scrollamount="20"><h2> IN CASE I DON'T SEE YOU, GOOD AFTERNOON, GOOD EVENING AND GOOD NIGHT </h2></marquee>
+<hr>
+
+<br><br>
+
+
+<!--- SOCIAL MEDIA START --->  
+    <h3>SOCIAL MEDIA</h3>
+
+<br><br>
+<a href="https://www.instagram.com/khaihaz._/" target="_blank">
+  <img src="ASSET/LOGO/insta.png" alt="insta" width="200px">
+</a>
+<br><br>
+<a href="https://www.facebook.com/khairul.haziq.923/" target="_blank">
+  <img src="ASSET/LOGO/facebook.png" alt="facebook" width="200px">
+</a>
+<br><br>
+<a href="https://twitter.com/khaihaz_/" target="_blank">
+  <img src="ASSET/LOGO/twitter.png" alt="twitter" width="200px">
+</a>
+<br><br>
+<!--- SOCIAL MEDIA END --->  
+
+
+<a href="#Top_Page">
+<img src="ASSET/LOGO/arrow_up.png" width="50 px"
+align="center">
+</a>
+
+<br><br>
+<!--- FOOTER START --->
+<footer>
+  <p2>&copy; Khaziq 2023</p2>
+</footer>
+<!--- FOOTER END --->
+</body>
+</html>
+
